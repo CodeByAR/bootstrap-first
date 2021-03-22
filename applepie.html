@@ -25,7 +25,7 @@
         </div> -->
         <h1>
           Apple pie
-          <small>Our famous, number-one selling pie.</small>
+          <small class="text-muted">Our famous, number-one selling pie.</small>
         </h1>
 
         <div class="row">
@@ -38,14 +38,16 @@
           </div>
 
           <div class="col-md-4">
-            <h3>About this pie</h3>
+            <h3 class="my-3 text-capitalize">About this pie</h3>
             <p>
-              Sweet ice cream jelly beans lemon drops. Pastry toffee fruitcake
-              gingerbread jelly-o. Lollipop sesame snaps muffin. Macaroon halvah
-              marshmallow sesame snaps sugar plum dragée. Wafer pudding sesame
-              snaps tootsie roll sesame snaps cake chupa chups jelly beans.
+              Sweet ice cream jelly beans lemon drops.
+              <small>Pastry toffee fruitcake</small> gingerbread jelly-o.
+              Lollipop <strong>sesame snaps muffin.</strong> Macaroon halvah
+              marshmallow sesame snaps sugar plum dragée.
+              <mark>Wafer pudding sesame snaps tootsie</mark> roll sesame snaps
+              cake chupa chups jelly beans.
             </p>
-            <h3>Ingredients</h3>
+            <h3 class="my-3">Ingredients</h3>
             <ul>
               <li>Apple</li>
               <li>Sugar</li>
@@ -68,28 +70,88 @@
             </div>
           </div>
         </div>
-        <h1>Other customers also bought</h1>
         <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <a href="applepie.html">
-                    <img src="images/products/strawberrypiesmall.jpg" alt="" class="img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="applepie.html">
-                    <img src="images/products/rhubarbpiesmall.jpg" alt="" class="img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="applepie.html">
-                    <img src="images/products/peachpiesmall.jpg" alt="" class="img-fluid">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="applepie.html">
-                    <img src="images/products/cranberrypiesmall.jpg" alt="" class="img-fluid">
-                </a>
-            </div>
+          <div class="table-responsive p-4">
+            <table class="table table-hover table-striped table-bordered">
+              <thead class="thead-light">
+                <tr>
+                  <th>Ingredient</th>
+                  <th>Risk</th>
+                  <th>Percentage</th>
+                  <!-- <th>Percentage</th>
+                  <th>Percentage</th>
+                  <th>Percentage</th>
+                  <th>Percentage</th>
+                  <th>Percentage</th> -->
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-primary">
+                  <td>Apple</td>
+                  <td>Yes</td>
+                  <td>50%</td>
+                </tr>
+                <tr>
+                  <td>Eggs</td>
+                  <td>Yes</td>
+                  <td class="table-danger">10%</td>
+                </tr>
+                <tr>
+                  <td>Nuts</td>
+                  <td>MayBe</td>
+                  <td>&lt;0.1%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="p-4 mb-3 mt-2 bg-light rounded-pill border border-primary">
+          <h4>A Quote from Bethany</h4>
+          <p class="mb-0 font-italic">
+              My recipes have been in our family for generations. We hope you enjoy our pies!
+              -Bethany
+          </p>
+        </div>
+
+        <h1 class="my-4 display-5">Other customers also bought</h1>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <a href="applepie.html">
+              <img
+                src="images/products/strawberrypiesmall.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="applepie.html">
+              <img
+                src="images/products/rhubarbpiesmall.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="applepie.html">
+              <img
+                src="images/products/peachpiesmall.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="applepie.html">
+              <img
+                src="images/products/cranberrypiesmall.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </main>
