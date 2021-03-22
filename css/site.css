@@ -1,5 +1,18 @@
 body {
-    padding: 3rem 0;
-    background-image: url('../images/pattern.png');
-    background-repeat: repeat;
+  padding: 3rem 0;
+  background-image: url("../images/pattern.png");
+  background-repeat: repeat;
+}
+
+.bg-primary {
+    background-color: #a592c2 !important;
+}
+
+.jumbotron-detail-apple-pie {
+    background: url('../images/products/applepie.jpg') no-repeat fixed;
+}
+.jumbotron {
+  height: 40vh;
+  background-size: cover;
+  /* background-image: url("../images/bethany-fullsize.jpg"); */
 }
